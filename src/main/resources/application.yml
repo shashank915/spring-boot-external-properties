@@ -1,0 +1,56 @@
+aws:
+  aws_access_key_id: AKIAWP
+  aws_secret_access_key: Sn/9UwWJixVF
+  region: us-east-1
+  bucket-name: students-resources-test
+  folderName: images
+  aws_path: https://daw0qfwums9.cloudfront.net/
+  extension: .png
+  cloud-front:
+    "https://d1k3nlqskoey.cloudfront.net": frost-images
+    "https://daw0qxwums9.cloudfront.net": students-resources-test
+
+
+#server:
+#  demo: /demo
+#  application:
+#    name: InjectMapFromYAML
+#    url: http://injectmapfromyaml.dev
+#    description: How To Inject a map from a YAML File in Spring Boot
+#  config:
+#    ips:
+#      - 10.10.10.10
+#      - 10.10.10.11
+#      - 10.10.10.12
+#      - 10.10.10.13
+#    filesystem:
+#      - /dev/root
+#      - /dev/md2
+#      - /dev/md4
+#  users:
+#    root:
+#      username: root
+#      password: rootpass
+#    guest:
+#      username: guest
+#      password: guestpass
+
+
+logging:
+  level:
+    org.springframework.web: DEBUG
+    com.mkyong: DEBUG
+email: test@mkyong.com
+thread-pool: 10
+app:
+  menus:
+    - title: Home
+      name: Home
+      path: /
+    - title: Login
+      name: Login
+      path: /login
+  compiler:
+    timeout: 5
+    output-folder: /temp/
+  error: /error/
